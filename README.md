@@ -1,5 +1,5 @@
 # SRIEjercicios
-##Ejercicios server python
+## Ejercicios server python
 Ejercicicos|Explicación
 -------------|------------
 [Server 1](Screenshot_1.png)|Se inicia un server poniendo este comando python -m http.server 8000
