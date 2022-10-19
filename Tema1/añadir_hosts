@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "Introduzca un nombre de dominio"
+read dominio
+echo "Introduzca una IP"
+read ip
+if   grep -oq  "$dominio" /etc/hosts  ; then
+	echo "Ese dominio ya esta utilizado"
+else 
+ 	echo "$ip $dominio" >>  /etc/hosts
+ 	echo "Dominio y IP añadidos"
+fi

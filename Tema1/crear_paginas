@@ -1,0 +1,21 @@
+#!/bin/bash
+echo "Introduzca un nombre de la pagina"
+read pag
+echo "Introduzca un titulo"
+read titulo
+echo "Introduce una cabezera"
+read cabecera
+echo "Introduce un mensaje"
+read mensaje
+mkdir -p /var/www/html/$pag
+touch /var/www/html/$pag/index.html
+echo "<!DOCTYPE html>" >> /var/www/html/$pag/index.html
+echo "<html>" >> /var/www/html/$pag/index.html
+echo "<head>" >> /var/www/html/$pag/index.html
+echo "<title>$titulo</title>" >> /var/www/html/$pag/index.html
+echo "</head>" >> /var/www/html/$pag/index.html
+echo "<body>" >> /var/www/html/$pag/index.html
+echo "<h1>$cabecera</h1>" >> /var/www/html/$pag/index.html
+echo "<p>$mensaje<p>" >> /var/www/html/$pag/index.html
+echo "</body>" >> /var/www/html/$pag/index.html
+echo "</html>" >> /var/www/html/$pag/index.html
