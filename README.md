@@ -12,3 +12,7 @@ Ejercicicos|Explicación
 [Script 1](Tema1/añadir_puertos)|Con este script le daremos un puerto y se añadira automaticamente a ports.conf a menos que exista ,en cuyo caso te dara un error.
 [Script 2](Tema1/añadir_hosts)|Con este script le daremos una IP y un dominio y los añadira al fichero hosts a menos que el dominio ya exista en cuyo caso dara error.
 [Script 3](Tema1/crear_paginas)|Con este script crearemos una página web muy sencilla con un titulo,cabecera y un mensaje
+
+## Proyecto Primer Trimestre
+En este proyecto haremos unas cuantas configuraciones y usaremos varios modulos de apache para explorar todo lo que nos puede ofrecer
+[Clic aqui](https://github.com/AlvaroAMGX/Practica1trimestre)
